@@ -1,0 +1,93 @@
+[
+    {
+        "_id": "8",
+        "nombre": "Bolso de Viaje",
+        "descripcion": "Bolso de viaje duradero y espacioso, ideal para fines de semana o gimnasio.",
+        "categoria": ["Bolsos", "Accesorios"],
+        "imageUrl": [
+            "../../assets/img/productos/clothing/1.jpg"
+        ],
+        "precio_venta": 150,
+        "precio_regular": 200,
+        "creado_en": "2024-12-22T00:00:00.000Z",
+        "slug": "bolso-de-viaje"
+    },
+    {
+        "_id": "9",
+        "nombre": "Mochila Camuflada",
+        "descripcion": "Mochila con diseño camuflado, resistente y con múltiples compartimentos.",
+        "categoria": ["Mochilas", "Accesorios"],
+        "imageUrl": [
+            "../../assets/img/productos/clothing/2.jpg"
+        ],
+        "precio_venta": 180,
+        "precio_regular": 250,
+        "creado_en": "2024-12-22T00:00:00.000Z",
+        "slug": "mochila-camuflada"
+    },
+    {
+        "_id": "10",
+        "nombre": "Gafas de Sol",
+        "descripcion": "Gafas de sol unisex con protección UV400, perfectas para días soleados.",
+        "categoria": ["Gafas", "Accesorios"],
+        "imageUrl": [
+            "../../assets/img/productos/clothing/3.jpg"
+        ],
+        "precio_venta": 120,
+        "precio_regular": 160,
+        "creado_en": "2024-12-22T00:00:00.000Z",
+        "slug": "gafas-de-sol"
+    },
+    {
+        "_id": "11",
+        "nombre": "Camisa de Cuadros",
+        "descripcion": "Camisa de cuadros azul, cómoda y versátil para cualquier ocasión.",
+        "categoria": ["Ropa", "Camisas"],
+        "imageUrl": [
+            "../../assets/img/productos/clothing/4.jpg"
+        ],
+        "precio_venta": 250,
+        "precio_regular": 300,
+        "creado_en": "2024-12-22T00:00:00.000Z",
+        "slug": "camisa-de-cuadros"
+    },
+    {
+        "_id": "12",
+        "nombre": "Short Deportivo",
+        "descripcion": "Short deportivo ligero, ideal para entrenamientos y actividades al aire libre.",
+        "categoria": ["Ropa", "Deportes"],
+        "imageUrl": [
+            "../../assets/img/productos/clothing/5.jpg"
+        ],
+        "precio_venta": 100,
+        "precio_regular": 150,
+        "creado_en": "2024-12-22T00:00:00.000Z",
+        "slug": "short-deportivo"
+    },
+    {
+        "_id": "13",
+        "nombre": "Zapatillas Blancas",
+        "descripcion": "Zapatillas casuales blancas, perfectas para un look moderno y relajado.",
+        "categoria": ["Zapatos", "Accesorios"],
+        "imageUrl": [
+            "../../assets/img/productos/clothing/6.jpg"
+        ],
+        "precio_venta": 300,
+        "precio_regular": 400,
+        "creado_en": "2024-12-22T00:00:00.000Z",
+        "slug": "zapatillas-blancas"
+    },
+    {
+        "_id": "14",
+        "nombre": "Gafas de Sol en Estuche",
+        "descripcion": "Gafas de sol estilo aviador con estuche incluido, diseño elegante y moderno.",
+        "categoria": ["Gafas", "Accesorios"],
+        "imageUrl": [
+            "../../assets/img/productos/clothing/7.jpg"
+        ],
+        "precio_venta": 140,
+        "precio_regular": 190,
+        "creado_en": "2024-12-22T00:00:00.000Z",
+        "slug": "gafas-de-sol-estuche"
+    }
+]
