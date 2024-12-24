@@ -1,0 +1,18 @@
+<!-- Sección para la lista de productos -->
+<div class="flex flex-wrap -m-4">
+  <app-producto-item *ngFor="let item of productos" [producto]="item"></app-producto-item>
+</div>
+
+<!-- Mensaje si no hay productos -->
+<div *ngIf="!productos.length">
+  <div class="flex flex-col text-center w-full mb-12">
+    <div class="ps-section__content mx-auto">
+      <img src="../../../assets/img/404.jpg" alt="No hay productos">
+    </div>
+    <h3>Ohh! No Existen Productos</h3>
+  </div>
+  <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+    Regresar
+  </button>
+</div>
+

@@ -1,0 +1,13 @@
+<div class="lg:w-4/4 md:w-4/4 p-4 w-full">
+    <a class="block relative h-48 rounded overflow-hidden">
+      <img alt="ecommerce" class="object-cover object-center w-full h-full block" 
+      [src]="ropa? ropa.imageUrl[0] : ''" [alt]="ropa?.nombre"
+      [routerLink]="['ropa',ropa?.slug]">
+    </a>
+    <div class="mt-4">
+      <!-- <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3> -->
+      <h2 class="text-gray-900 title-font text-lg font-medium">{{ropa?.nombre?.substring(0,20)}} {{ropa && ropa.nombre[21] ? "...": null}}</h2>
+      <p class="mt-1"> Bs{{ropa?.precio_venta|| 0}} <del>Bs{{(ropa?.precio_regular || 0)}} </del>
+      <span class="text-danger ml-3"> {{ropa? ((ropa.precio_regular - ropa.precio_venta)/(ropa.precio_regular)| percent): null}} </span></p>
+    </div>
+  </div>

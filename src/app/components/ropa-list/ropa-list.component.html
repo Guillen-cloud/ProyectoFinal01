@@ -1,0 +1,18 @@
+<!-- Sección para la lista de ropa -->
+<div class="flex flex-wrap -m-4 mt-8">
+    <app-ropa-item *ngFor="let item of ropa" [ropa]="item"></app-ropa-item>
+    
+  </div>
+  
+  <!-- Mensaje si no hay ropa -->
+  <div *ngIf="!ropa.length">
+    <div class="flex flex-col text-center w-full mb-12">
+      <div class="ps-section__content mx-auto">
+        <img src="../../../assets/img/404.jpg" alt="No hay ropa">
+      </div>
+      <h3>Ohh! No Existe Ropa</h3>
+    </div>
+    <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+      Regresar
+    </button>
+  </div>
